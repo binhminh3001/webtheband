@@ -1,0 +1,106 @@
+/* pc */
+@media(min-width:64em){
+    #header .icon-menu-mobile{
+        display:none;
+    }
+    .nav__mobile{
+        display: none;
+    }
+}
+/* tablet & mobile */
+@media(max-width:63.9375em){
+    .btn{
+        padding: 14.2px 19.6;
+    }
+    .contact-form .form-submit-btn{
+        padding: 14.2px 20.48px;
+    }
+    .form-control {
+        padding: 15px;
+    }
+    .contact-info{
+        line-height: 2;
+    }
+    #footer .social a{
+        padding:0 8px;
+    }
+    #footer .copyright{
+        font-size:24px;
+    }
+    #footer .copyright a{
+        padding:0 8px;
+    }
+
+}
+/* tablet */
+@media(min-width:46.25em) and (max-width:63.9375em){
+    .nav__mobile{
+        display: none;
+    }
+}
+/* mobile */
+@media(max-width:46.1875em){
+    .s-full-width,
+    .s-col-full-mobile{
+        width:100% !important;
+    }
+    .s-mt8{
+        margin-top:8px !important;
+    }
+    .btn{
+        padding: 11px 16px;
+        font-size:15px;
+        background-color: #000;
+        text-decoration: none;
+        color:#fff;
+        border:none;
+        display:block;
+        text-align: center;  
+        }
+    #header{
+        overflow: hidden;
+    }
+    #header .icon-search{
+        display:none;
+    }
+
+    #header .icon-menu-mobile,
+    #nav li
+    {
+        display:block;
+    }
+    #nav> li:first-child{
+        display:inline-block;
+    }
+    #nav li a{
+        padding:2px 24px;
+    }
+    #nav .subnav{
+        position:initial;
+        background-color:#333;
+        width:100%;
+    }
+    #nav .subnav a{
+        
+        color:#fff;
+        padding: 6px 32px;
+    }
+    #content .avatar{
+        width: 60%;
+    }
+    #content .team-name{
+        font-size: 15px;
+    }
+    .contact-info{
+        margin-bottom:32px;
+    }
+    .nav__mobile{
+        display: block;
+    }
+    .nav__mobile-icon{
+
+    }
+    .nav__mobile-subnav{
+
+    }
+}
