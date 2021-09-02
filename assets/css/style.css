@@ -401,7 +401,7 @@ html{
 }
 /* map */
 .map{
-    background: url('/assets/img/map/map-w3.jpg') top center / cover no-repeat;
+    background: url('https://binhminh3001.github.io/webtheband/assets/img/map/map-w3.jpg') top center / cover no-repeat;
     padding-top:50%;
     filter: grayscale(50%);
 }
